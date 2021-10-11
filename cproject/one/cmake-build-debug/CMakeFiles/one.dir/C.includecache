@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/baojie/Documents/learn/xxtc/cproject/one/T43.c
+stdio.h
+-
+
+/Users/baojie/Documents/learn/xxtc/cproject/one/T44.c
+stdio.h
+-
+

@@ -1,0 +1,3 @@
+/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/CMakeFiles/one.dir
