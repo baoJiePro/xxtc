@@ -1,33 +1,33 @@
 //
-// Created by é²æ° on 2021/10/11.
+// Created by ±«½Ü on 2021/10/11.
 //
 #include <stdio.h>
 
 struct Study{
-    char * studyContent;//å­¦ä¹ å†…å®¹
+    char * studyContent;//Ñ§Ï°ÄÚÈİ
 };
 
 struct Student{
     char name[10];
     int age;
     char sex;
-    struct Study study;// Clionå·¥å…·çš„å†™æ³•
+    struct Study study;// Clion¹¤¾ßµÄĞ´·¨
     struct Wan{
-        char * wanContent;// ç©çš„å†…å®¹
+        char * wanContent;// ÍæµÄÄÚÈİ
     } wan;
 };
 
-int main(){
+int mainT44(){
 
     struct Student student = {
             "liYuanBa",
             24,
             'M',
-            {"å­¦ä¹ c"},
+            {"cÓïÑÔ"},
             {"wanZhe"}
     };
 
-    printf("name:%s, age:%d, sex:%cï¼Œstudy:%s, wan:%s \n",
+    printf("name:%s, age:%d, sex:%c£¬study:%s, wan:%s \n",
            student.name, student.age, student.sex, student.study.studyContent, student.wan.wanContent);
 
 

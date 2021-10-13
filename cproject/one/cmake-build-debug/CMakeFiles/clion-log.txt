@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/baojie/Documents/learn/xxtc/cproject/one
+"D:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\android_project\my_project\ndk_project\xxtc\cproject\one
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug
+-- Build files have been written to: D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug

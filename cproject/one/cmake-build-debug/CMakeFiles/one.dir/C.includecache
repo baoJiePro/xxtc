@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/baojie/Documents/learn/xxtc/cproject/one/T43.c
+D:/android_project/my_project/ndk_project/xxtc/cproject/one/T57.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 
-/Users/baojie/Documents/learn/xxtc/cproject/one/T44.c
+D:/android_project/my_project/ndk_project/xxtc/cproject/one/T58.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

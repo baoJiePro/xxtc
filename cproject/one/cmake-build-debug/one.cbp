@@ -8,179 +8,219 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug"/>
+				<Option working_dir="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="one">
-				<Option output="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/one" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug"/>
+				<Option output="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/one.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 one"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 one"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="one/fast">
-				<Option output="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/one" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug"/>
+				<Option output="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/one.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 one/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/baojie/Documents/learn/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 one/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/android_project/my_project/ndk_project/xxtc/cproject/one/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T11.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T11.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T12.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T12.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T13.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T13.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T14.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T14.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T15.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T15.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T16.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T16.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T17.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T17.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T18.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T18.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T19.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T19.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T2.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T2.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T21.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T21.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T22.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T22.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T23.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T23.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T24.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T24.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T25.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T25.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T26.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T26.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T27.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T27.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T3.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T3.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T31.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T31.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T32.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T32.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T33.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T33.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T34.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T34.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T35.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T35.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T36.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T36.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T4.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T4.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T41.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T41.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T42.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T42.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T43.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T43.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T44.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T44.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T5.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T45.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T6.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T46.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T7.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T47.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/T8.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T48.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/main.c">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T49.c">
 			<Option target="one"/>
 		</Unit>
-		<Unit filename="/Users/baojie/Documents/learn/xxtc/cproject/one/CMakeLists.txt">
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T5.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T51.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T52.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T53.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T54.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T55.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T56.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T57.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T58.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T59.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T6.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T7.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/T8.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/main.c">
+			<Option target="one"/>
+		</Unit>
+		<Unit filename="D:/android_project/my_project/ndk_project/xxtc/cproject/one/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
